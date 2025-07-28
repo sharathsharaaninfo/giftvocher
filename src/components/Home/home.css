@@ -1,0 +1,41 @@
+.app {
+  display: flex;
+  flex-wrap: wrap; 
+  background-color: white;
+} 
+
+
+
+/* Home.css */
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+/* Default styles */
+/* ... (existing styles) */
+
+/* Media query for screens with a maximum width of 768px (typical for mobile devices) */
+@media (max-width: 768px) {
+  .mobile-steps {
+    /* Reorder columns for mobile screens */
+    flex-direction: column-reverse;
+  }
+}
+
+.centered-content {
+  font-size: 3rem; /* Large font size */
+  text-align: center;
+}
+
+
+
+
+
+
+
