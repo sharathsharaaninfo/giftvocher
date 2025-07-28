@@ -140,7 +140,7 @@ function App() {
                 <img src='../images/Sije/SIJE.jpg' alt="SIJE" className="full-image web-image" />
                 <img src='../images/Sije/Banner_Mobile.jpg' alt="SIJE" className="full-image mobile-image" />
                 <div className="overlay">
-                    <img src='../images/Sije/sije3.png' alt="SIJE" className="form-image" />
+                    <img src='../images/Sije/sije31.png' alt="SIJE" className="form-image" />
                     <div className="form-container">
                         <h1 className="heading">VISIT BHIMA AT SIJE</h1>
                         <form onSubmit={handleSubmit}>
